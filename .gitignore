@@ -1,6 +1,9 @@
 # Αποκλεισμός φακέλου Elasticsearch
 elasticsearch-8.17.2/
 
+# Αποκλεισμός trec_eval (αν δεν θέλεις να ανέβει)
+trec_eval/
+
 # Αποκλεισμός logs και προσωρινών αρχείων
 *.log
 *.tmp
@@ -12,7 +15,8 @@ __pycache__/
 *.pyo
 *.pyd
 .env
+.venv/
+venv/
 
-# VSCode settings (αν χρησιμοποιείς)
+# VSCode settings
 .vscode/
-"elasticsearch-8.17.2/" 
