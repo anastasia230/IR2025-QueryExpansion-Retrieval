@@ -15,3 +15,4 @@ __pycache__/
 
 # VSCode settings (αν χρησιμοποιείς)
 .vscode/
+"elasticsearch-8.17.2/" 
