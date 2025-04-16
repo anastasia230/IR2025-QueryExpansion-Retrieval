@@ -1,0 +1,17 @@
+# Αποκλεισμός φακέλου Elasticsearch
+elasticsearch-8.17.2/
+
+# Αποκλεισμός logs και προσωρινών αρχείων
+*.log
+*.tmp
+*.bak
+
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# VSCode settings (αν χρησιμοποιείς)
+.vscode/
